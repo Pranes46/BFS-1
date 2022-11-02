@@ -7,7 +7,7 @@ class Node:
 """
 
 class Solution:
-    def levelOrder(self, root: 'Node') -> List[List[int]]:
+    def levelOrder(self, root: 'Node') -> List[List[int]]:  #tc - o(n(. sc - o(n)
         
         
         if root==None:  #returning empty list if there is no root/tree
