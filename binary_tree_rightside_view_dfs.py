@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution:  #tc - o(n(. sc - o(n)
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:  
         
         #Using DFS
